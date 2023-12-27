@@ -1,17 +1,17 @@
-# TÉRMINOS, PRIVACIDAD, Y CONDICIONES DE USO.
+# الشروط والخصوصية وشروط الاستخدام.
 
-> **_Última actualización 22 de diciembre de 2023_**
+> **_آخر تحديث في 22 ديسمبر 2023_**
 
-## MODIFICACIONES Y ACTUALIZACIONES
-_Nos reservamos el derecho de actualizar, modificar o cambiar nuestros términos, políticas de privacidad y condiciones sin previo aviso. Cualquier ajuste será efectivo inmediatamente después de su publicación. Le recomendamos revisar periódicamente nuestras políticas para estar informado sobre cualquier cambio. El uso continuado de nuestro código o bot después de la publicación de cualquier modificación constituirá su aceptación de dichas modificaciones._
+## التعديلات والتحديثات
+_حن نحتفظ بالحق في تحديث أو تعديل أو تغيير الشروط وسياسات الخصوصية والأحكام الخاصة بنا دون إشعار مسبق. أي تعديلات ستكون فعالة فور نشرها. نوصيك بمراجعة سياساتنا بشكل دوري لتكون على علم بأي تغييرات. إن استمرارك في استخدام الكود أو الروبوت الخاص بنا بعد نشر أي تعديلات سيشكل موافقتك على هذه التعديلات._
 
 <details>
 <summary><b>ACUERDO DEL PROYECTO</b></summary>
       
-Al utilizar este proyecto, ya sea como anfitrión de ejecución del código o como usuario común, usted acepta plenamente los términos establecidos en este acuerdo y se compromete a cumplir con las disposiciones de la licencia del código asociado. En caso contrario, se le insta a cesar inmediatamente el uso del proyecto.
-1.	`Aceptación de Términos:` Al acceder y utilizar este proyecto, reconoce y acepta cumplir con la totalidad de los términos y condiciones establecidos en este acuerdo.
+Al utilizar este proyecto, ya sea como مضيف تنفيذ التعليمات البرمجية أو كمستخدم مشترك، فإنك تقبل بشكل كامل الشروط المنصوص عليها في هذه الاتفاقية وتوافق على الالتزام بأحكام ترخيص التعليمات البرمجية المرتبط بها. وبخلاف ذلك، نحثك على التوقف فورًا عن استخدام المشروع
+1.	`Aceptación de Términos:` من خلال الوصول إلى هذا المشروع واستخدامه، فإنك تقر وتوافق على الالتزام بجميع الشروط والأحكام المنصوص عليها في هذه الاتفاقية.
 
-2.	`Roles de Uso:` Este proyecto puede ser utilizado tanto por los anfitriones de ejecución del código como por usuarios comunes. Ambos están sujetos a las disposiciones de este acuerdo y deben respetar la licencia del código subyacente.
+2.	`Roles de Uso:` يمكن استخدام هذا المشروع من قبل كل من مضيفي تنفيذ التعليمات البرمجية والمستخدمين العاديين. كلاهما يخضع لأحكام هذه الاتفاقية ويجب أن يحترم ترخيص الكود الأساسي.
 
 3.	`Compromiso con la Licencia del Código:` Usted reconoce y acepta que el uso de este proyecto está condicionado al cumplimiento de la licencia del código asociado. Cualquier violación de dicha licencia puede resultar en la terminación del acceso al proyecto.
 
