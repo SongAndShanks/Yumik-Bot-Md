@@ -8,49 +8,47 @@ import axios from "axios"
 import moment from "moment-timezone"
 import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js"
 
-//⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a para GataBot-MD | Add the numbers to be Owner for GataBot-MD ⋅.━━━━ ⊰  
+//⊱ ━━━━━.⋅ أضف الأرقام لتكون المالك/المالكين لـ Yumiko-Bot | أضف الأرقام لتكون مالكًا لـ YumikoBot-MD ⋅.━━━━ ⊰  
 
 global.owner = [
-["5492266466080", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-["573026191480", '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 𝙂𝘽 💖🐈', true], 
-["5492266466080"], 
-["593968585383"], 
-["5492266613038"],
-["51948705559"],
-["51948273587"],
-["51982233590"],
-["51906662557"],
-["5217294888993"]]
+["201003942975", '𝑺𝑶𝑵𝑮🕸', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["212697300798", '𝑺𝑯𝑨𝑵𝑲𝑺☁️', true], 
+["201003942975"], 
+["212697300798"], 
+["201003942975"],
+["212697300798"],
+["201003942975"],
+["212697300798"],
+["201003942975"],
+["212697300798"]]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-//BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
-//Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = "" //Ejemplo: +59309090909
+// BETA: إذا كنت تريد تجنب كتابة الرقم الذي سيكون روبوتًا في وحدة التحكم، فقد أضفته من هنا:
+//ينطبق فقط على الخيار 2 (كن روبوتًا برمز نصي مكون من 8 أرقام)
+global.botNumberCode = ""
 global.confirmCode = ""
 
 global.mods = []
-global.prems = ["528451003894"]
-//key de violetics
+global.prems = ["201003942975"]
+//مفتاح البنفسج
 global.Key360 = ["964f-0c75-7afc"]
    
   
-//⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga GataBot-MD
-//Add the language you want GataBot-MD to have
-//  es = Español         id = Bahasa Indonesia
-//  en = English         pt = Português 
-//  ar = عرب             hi = Hindi Language
+//⊱ ━━━━━.⋅ اللغة ⋅.━━━━ ⊰ 
+//أضف اللغة التي تريد أن يمتلكها GataBot-MD 
+// أضف اللغة التي تريد أن يمتلكها GataBot-MD
+// ​​id = المعرف الإسباني es = البهاسا الإندونيسية 
+// en = الإنجليزية pt = البرتغالية 
+// ar = العربية hi = اللغة الهندية
 
-global.lenguajeGB = es //Idioma de GataBot, Ejemplo: es | en | pt...
+global.lenguajeGB = ar //Idioma de GataBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.openai_key = 'sk-0'
-/* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
+global.openai_key = 'sk-MfbrgxPEKGOJEL0G4XY4T3BlbkFJsFhZx5jAFvOJL2CkTFeL0'
 
 global.openai_org_id = 'org-3'
-/* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
 global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"]
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -104,26 +102,24 @@ global.moment = moment
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-["18059196237", 'Gata Dios 💻', 1], 
-["5492266466080", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["59894808483", '𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["5521989092076", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["5491173694367", 'Soporte', 1]]
+["201003942975", '𝑺𝑶𝑵𝑮🕸', 1], 
+["212697300798", '𝑺𝑯𝑨𝑵𝑲𝑺☁', 1],  
+["201003942975", '𝑺𝑶𝑵𝑮🕸', 1],
+["212697300798", '𝑺𝑯𝑨𝑵𝑲𝑺☁', 1],
+["201003942975", '𝑺𝑶𝑵𝑮🕸', 1]]
 
-global.mail = '' //agrega tú correo
-global.desc = '' //agrega una descripción corta
-global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
-global.country = '' //agrega tú país ejemplo: 🇪🇨
-
-global.packname = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
-global.author = "𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.mail = '' // أضف بريدك الإلكتروني
+global.desc = '' // أضف وصفًا قصيرًا
+global.desc2 = '' // يضيف وصفًا طويلًا (ينطبق فقط إذا لم يكن لدى WhatsApp الخاص بك وصف)
+arálobal.packname = "𝒀𝑼𝑴𝑰𝑲𝑶-𝑩𝑶𝑻-𝑴𝑫"
+global.author = "𝑺𝑶𝑵𝑮&𝑺𝑯𝑨𝑵𝑲𝑺"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = "1.7.0"
-global.vsJB = "2.5 (Beta)"
+global.vs = "1.0"
+global.vsJB = "1.0 (تجربة)"
 
-global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.gt = "𝒀𝑼𝑴𝑰𝑲𝑶-𝑩𝑶𝑻-𝑴𝑫"
 global.yt = "https://youtube.com/@gatadios"
 global.yt2 = "https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s"
 global.ig = "https://www.instagram.com/gata_dios"
@@ -178,13 +174,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
-global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
-global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
-global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
-global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
-global.nomorown = "593993684821"
+global.wm = "𝒀𝑼𝑴𝑰𝑲𝑶-𝑩𝑶𝑻-𝑴𝑫 : 𝑺𝑶𝑵𝑮&𝑺𝑯𝑨𝑵𝑲𝑺"
+global.igfg = "𝒀𝑼𝑴𝑰𝑲𝑶-𝑩𝑶𝑻-𝑴𝑫"
+global.wait = "*⌛ _جاري التحميل..._ ▬▭▭▭▭▭▭*"
+global.waitt = "*⌛ _جاري التحميل..._ ▬▬▭▭▭*"
+global.waittt = "*⌛ _جاري التحميل..._ ▬▬▬▬▭▭*"
+global.waitttt = "*⌛ _جاري التحميل..._ ▬▬▬▬▬▬▭*"
+global.nomorown = "201003942975"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
