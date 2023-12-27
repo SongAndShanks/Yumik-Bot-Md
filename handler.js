@@ -1401,7 +1401,7 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + '🕸', '🍾 yabanyyabany.gmail.com'].getRandom(),
+"title": [wm, '𝒀𝑼𝑴𝑰𝑲𝑶🍾' + gt + '🕸', '🍾 yabanyyabany.gmail.com'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: [md, nna, nn2, yt, ig, paypal, fb].getRandom()}}}, { quoted: fkontak2 })
