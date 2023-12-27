@@ -34,10 +34,10 @@ while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 *_${lenguajeGB.smsAutoLv6()}_*`, null, [[lenguajeGB.smsConMenu(), `/menu`]], m)*/
 
 
-let especial = ['limit', 'diamond', 'joincount', 'emerald', 'berlian', 'kyubi', 'gold', 'money', 'tiketcoin', 'stamina'].getRandom()
-let especial2 = ['potion', 'aqua', 'trash', 'wood', 'rock', 'batu', 'string', 'iron', 'coal', 'botol', 'kaleng', 'kardus'].getRandom()
-let especial3 = ['eleksirb', 'emasbatang', 'emasbiasa', 'rubah', 'sampah', 'serigala', 'kayu', 'sword', 'umpan', 'healtmonster', 'emas', 'pancingan', 'pancing'].getRandom()
-let especial4 = ['common', 'uncoommon', 'mythic', 'pet', 'gardenboxs', 'legendary'].getRandom()
+let especial = ['حد', 'الماس', 'عدد الانضمام', 'المرلد', 'يقوت', 'كيوبي', 'ذهب', 'مال', 'تذاكر', 'قوة تحمل'].getRandom()
+let especial2 = ['جرعة', 'أكوا', 'زبالة', 'خشب', 'صخر', 'باتو', 'خيط', 'حديد', 'فحم', 'زجاجة', 'يستطيع', 'صندوق من الورق المقوى'].getRandom()
+let especial3 = ['كهربائي', 'سبيكة ذهب', 'الذهب العادي', 'يتغير', 'زبالة', 'ذئب', 'خشب', 'سيف', 'طعم', 'دم الوحش', 'ليست كذلك', 'الإغراء', 'ممر صيد الاسماك'].getRandom()
+let especial4 = ['شائع', 'غير مألوف', 'أسطوري', 'حيوان اليف', 'صناديق الحديقة', 'أسطوري'].getRandom()
 
 let especialCant = [6, 7, 6, 7, 6, 6, 6, 7, 8, 9, 8, 3, 9, 7, 9].getRandom()
 let especialCant2 = [6, 7, 6, 7, 6, 6, 6, 7, 8, 9, 10, 3, 11, 7, 9].getRandom()
