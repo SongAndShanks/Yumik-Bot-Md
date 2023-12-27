@@ -46,7 +46,7 @@ m.exp = 0
 m.limit = false
 m.money = false
 try {
-// TODO: use loop to insert data instead of this
+// TODO: استخدم الحلقة لإدراج البيانات بدلاً من ذلك
 let user = global.db.data.users[m.sender]
 /*------------------------------------------------*/	            
 let chatgptUser = global.chatgpt.data.users[m.sender];
@@ -1165,10 +1165,10 @@ if (!['owner-unbanchat.js'].includes(name) && chat && chat.isBanned && !isROwner
 if (name != 'owner-unbanchat.js' && name != 'owner-exec.js' && name != 'owner-exec2.js' && name != 'tool-delete.js' && chat?.isBanned && !isROwner) return 
 if (m.text && user.banned && !isROwner) {
 if (user.antispam > 2) return
-m.reply(`🚫 *ESTÁ BANEADO(A), NO PUEDE USAR COMANDOS*\n
-📑 *MOTIVO: ${user.messageSpam === 0 ? 'NO ESPECIFICADO' : user.messageSpam}*\n
-⚠️ \`\`\`SI ESTE BOT ES CUENTA OFICIAL Y TIENE EVIDENCIA QUE RESPALDE QUE ESTE MENSAJE ES UN ERROR, PUEDE EXPONER SU CASO EN:\`\`\`
-👉 *${ig}*\n👉 wa.me/50660400020\n👉 wa.me/573026191480`)
+m.reply(`🚫 *إذا كان هذا الروبوت حسابًا رسميًا وكان لديك دليل يدعم أن هذه الرسالة خطأ، فيمكنك ذكر حالتك على*\n
+📑 *السبب: ${user.messageSpam === 0 ? 'غير محدود' : user.messageSpam}*\n
+⚠️ \`\`\`أنت محظور، لا يمكنك استخدام الأوامر:\`\`\`
+👉 *${ig}*\n👉 wa.me/212697300798\n👉 wa.me/201003942975`)
 user.antispam++	
 return
 }}
@@ -1290,7 +1290,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)')  
+m.reply(+m.money + 'مال يوميكو')  
 break
 }}} catch (e) {
 console.error(e)
@@ -1401,7 +1401,7 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 centergatabot.gmail.com'].getRandom(),
+"title": [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + '🕸', '🍾 yabanyyabany.gmail.com'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: [md, nna, nn2, yt, ig, paypal, fb].getRandom()}}}, { quoted: fkontak2 })
